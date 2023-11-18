@@ -6,3 +6,4 @@ So this is the GitHub repository for our project i added this README not because
 
 Actual stuff:
 so Clone this project so that u can add to the app i know everyone knows this but certain soemone deosn't
+shut ur trap i know
