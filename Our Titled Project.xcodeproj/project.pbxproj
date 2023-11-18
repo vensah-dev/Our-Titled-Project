@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001E1DF02B08728900D02AAE /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E1DED2B08728900D02AAE /* ScannerView.swift */; };
+		001E1DF12B08728900D02AAE /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E1DEE2B08728900D02AAE /* ScanData.swift */; };
+		00ADD56B2B0873F600E2D4A6 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ADD56A2B0873F600E2D4A6 /* FolderView.swift */; };
 		C888E9D12AFB99CE007D8CB8 /* Our_Titled_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E9D02AFB99CE007D8CB8 /* Our_Titled_ProjectApp.swift */; };
 		C888E9D32AFB99CE007D8CB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E9D22AFB99CE007D8CB8 /* ContentView.swift */; };
 		C888E9D52AFB99D0007D8CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888E9D42AFB99D0007D8CB8 /* Assets.xcassets */; };
 		C888E9D82AFB99D0007D8CB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888E9D72AFB99D0007D8CB8 /* Preview Assets.xcassets */; };
-		C888E9DF2AFB9C7E007D8CB8 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E9DE2AFB9C7E007D8CB8 /* ScanView.swift */; };
 		C888E9E12AFB9CB8007D8CB8 /* ExamCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E9E02AFB9CB8007D8CB8 /* ExamCalendarView.swift */; };
 		C888E9E32AFB9F3C007D8CB8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E9E22AFB9F3C007D8CB8 /* HomeView.swift */; };
-		C888E9E52AFB9FC6007D8CB8 /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E9E42AFB9FC6007D8CB8 /* FilesView.swift */; };
 		C888E9E72AFBA052007D8CB8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888E9E62AFBA052007D8CB8 /* StatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001E1DED2B08728900D02AAE /* ScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScannerView.swift; path = "../../swiftui-videos/Scan Ocr/Scan-Ocr/ScannerView.swift"; sourceTree = "<group>"; };
+		001E1DEE2B08728900D02AAE /* ScanData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScanData.swift; path = "../../swiftui-videos/Scan Ocr/Scan-Ocr/ScanData.swift"; sourceTree = "<group>"; };
+		00ADD56A2B0873F600E2D4A6 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
 		C888E9CD2AFB99CE007D8CB8 /* Our Titled Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Our Titled Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C888E9D02AFB99CE007D8CB8 /* Our_Titled_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Our_Titled_ProjectApp.swift; sourceTree = "<group>"; };
 		C888E9D22AFB99CE007D8CB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C888E9D42AFB99D0007D8CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C888E9D72AFB99D0007D8CB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C888E9DE2AFB9C7E007D8CB8 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		C888E9E02AFB9CB8007D8CB8 /* ExamCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamCalendarView.swift; sourceTree = "<group>"; };
 		C888E9E22AFB9F3C007D8CB8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		C888E9E42AFB9FC6007D8CB8 /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
 		C888E9E62AFBA052007D8CB8 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,13 +63,14 @@
 		C888E9CF2AFB99CE007D8CB8 /* Our Titled Project */ = {
 			isa = PBXGroup;
 			children = (
+				001E1DEE2B08728900D02AAE /* ScanData.swift */,
+				001E1DED2B08728900D02AAE /* ScannerView.swift */,
 				C888E9D02AFB99CE007D8CB8 /* Our_Titled_ProjectApp.swift */,
+				00ADD56A2B0873F600E2D4A6 /* FolderView.swift */,
 				C888E9D22AFB99CE007D8CB8 /* ContentView.swift */,
 				C888E9E62AFBA052007D8CB8 /* StatsView.swift */,
-				C888E9E42AFB9FC6007D8CB8 /* FilesView.swift */,
 				C888E9E22AFB9F3C007D8CB8 /* HomeView.swift */,
 				C888E9E02AFB9CB8007D8CB8 /* ExamCalendarView.swift */,
-				C888E9DE2AFB9C7E007D8CB8 /* ScanView.swift */,
 				C888E9D42AFB99D0007D8CB8 /* Assets.xcassets */,
 				C888E9D62AFB99D0007D8CB8 /* Preview Content */,
 			);
@@ -153,12 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C888E9D32AFB99CE007D8CB8 /* ContentView.swift in Sources */,
+				001E1DF02B08728900D02AAE /* ScannerView.swift in Sources */,
 				C888E9D12AFB99CE007D8CB8 /* Our_Titled_ProjectApp.swift in Sources */,
-				C888E9E52AFB9FC6007D8CB8 /* FilesView.swift in Sources */,
+				00ADD56B2B0873F600E2D4A6 /* FolderView.swift in Sources */,
 				C888E9E12AFB9CB8007D8CB8 /* ExamCalendarView.swift in Sources */,
 				C888E9E32AFB9F3C007D8CB8 /* HomeView.swift in Sources */,
-				C888E9DF2AFB9C7E007D8CB8 /* ScanView.swift in Sources */,
 				C888E9E72AFBA052007D8CB8 /* StatsView.swift in Sources */,
+				001E1DF12B08728900D02AAE /* ScanData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +293,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Our Titled Project/Preview Content\"";
-				DEVELOPMENT_TEAM = 3W9U482L92;
+				DEVELOPMENT_TEAM = 37822KKR43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Reviser;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used to scan your worksheets";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +314,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Vensah.Our-Titled-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,12 +326,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Our Titled Project/Preview Content\"";
-				DEVELOPMENT_TEAM = 3W9U482L92;
+				DEVELOPMENT_TEAM = 37822KKR43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Reviser;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is used to scan your worksheets";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +347,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Vensah.Our-Titled-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

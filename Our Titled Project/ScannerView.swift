@@ -1,10 +1,3 @@
-//
-//  Our_Titled_ProjectApp.swift
-//  Our Titled Project
-//
-//  Created by Venkatesh Devendran on 08/11/2023.
-//
-
 import VisionKit
 import SwiftUI
 
