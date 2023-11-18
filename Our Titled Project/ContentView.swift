@@ -15,14 +15,14 @@ struct ContentView: View {
                     Label("Home", systemImage: "house")
                 }
             
+            FolderView()
+                .tabItem{
+                    Label("Files", systemImage: "doc.fill")
+                }
+            
             ExamCalendarView()
                 .tabItem{
                     Label("Calendar", systemImage: "calendar")
-                }
-            
-            FilesView()
-                .tabItem{
-                    Label("Files", systemImage: "doc.fill")
                 }
             
             StatsView()
